@@ -1,0 +1,517 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <!-- META CONTENT -->
+    <meta name="Author" content="Author Name">
+    <meta name="description" content="">
+    <meta name="copyright" content="">
+    <meta name="keywords" content="">
+    <meta name="robots" content="index/follow">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+
+    <!-- STYLESHEET INPORT -->
+    <link rel="stylesheet" type="text/css" href="styles.css">
+
+    <style>
+    div {
+        text-align: center;
+        background-color: #d35400;
+        color: #ffffff;
+        border: 1px solid #ecf0f1;
+        font-size: 14px;
+        text-align: center;
+    }
+
+h1 {
+	color: #CC4425;
+	font-family: 'Oswald';
+	font-size: 84px;
+	font-weight: 600;
+	line-height: 96px;
+	margin-bottom: 48px;
+	text-transform: uppercase;
+    padding-top: 1em;
+}
+
+p {
+	color: #3E4147;
+	font-family: 'Arvo';
+	font-size: 24px;
+	font-weight: 500;
+	line-height: 36px;
+	letter-spacing: -0.01em;
+	margin-bottom: 48px;
+}
+
+    </style>
+
+    <title>The Simple Grid</title>
+
+</head>
+<body>
+<script type="text/javascript">
+<!--
+ 
+ var viewportwidth;
+ var viewportheight;
+  
+ // the more standards compliant browsers (mozilla/netscape/opera/IE7) use window.innerWidth and window.innerHeight
+  
+ if (typeof window.innerWidth != 'undefined')
+ {
+      viewportwidth = window.innerWidth,
+      viewportheight = window.innerHeight
+ }
+  
+// IE6 in standards compliant mode (i.e. with a valid doctype as the first line in the document)
+ 
+ else if (typeof document.documentElement != 'undefined'
+     && typeof document.documentElement.clientWidth !=
+     'undefined' && document.documentElement.clientWidth != 0)
+ {
+       viewportwidth = document.documentElement.clientWidth,
+       viewportheight = document.documentElement.clientHeight
+ }
+  
+ // older versions of IE
+  
+ else
+ {
+       viewportwidth = document.getElementsByTagName('body')[0].clientWidth,
+       viewportheight = document.getElementsByTagName('body')[0].clientHeight
+ }
+document.write('<p>Your viewport width is '+viewportwidth+'x'+viewportheight+'  and em is: ' + (viewportwidth / 16) + '</p>');
+//-->
+</script>
+<div class="grid">
+
+        <!-- 25% -->
+        <div class="col-25">
+            .col-25
+        </div>
+        <div class="col-25">
+            .col-25
+        </div>
+        <div class="col-25">
+            .col-25
+        </div>
+        <div class="col-25">
+            .col-25
+        </div>
+
+        <!-- 25% / 75% -->
+        <div class="col-25">
+            .col-25
+        </div>
+        <div class="col-75">
+            .col-75
+        </div>
+
+        <!-- 30% / 70% -->
+        <div class="col-30">
+            .col-30
+        </div>
+        <div class="col-70">
+            .col-70
+        </div>
+
+        <!-- 40% / 60% -->
+        <div class="col-40">
+            .col-40
+        </div>
+        <div class="col-60">
+            .col-60
+        </div>
+
+        <!-- 50% / 50% -->
+        <div class="col-50">
+            .col-50
+        </div>
+        <div class="col-50">
+            .col-50
+        </div>
+
+        <!-- 100% -->
+        <div class="col-100">
+            .col-100
+        </div>
+        
+        <!-- 1 = 100% -->
+        <div class="col-1">
+            .col-1
+        </div>
+
+        <!-- 2 = 50% -->
+                <div class="col-2">
+            .col-2
+        </div>
+                <div class="col-2">
+            .col-2
+        </div>
+
+                <div class="col-3">
+            .col-3
+        </div>
+                <div class="col-3">
+            .col-3
+        </div>
+                <div class="col-3">
+            .col-3
+        </div>
+
+
+                <div class="col-4">
+            .col-4
+        </div>
+                <div class="col-4">
+            .col-4
+        </div>
+                <div class="col-4">
+            .col-4
+        </div>
+                <div class="col-4">
+            .col-4
+        </div>
+
+                <div class="col-5">
+            .col-5
+        </div>
+                <div class="col-5">
+            .col-5
+        </div>
+                <div class="col-5">
+            .col-5
+        </div>
+                <div class="col-5">
+            .col-5
+        </div>
+                <div class="col-5">
+            .col-5
+        </div>
+
+                <div class="col-6">
+            .col-6
+        </div>
+                <div class="col-6">
+            .col-6
+        </div>
+                <div class="col-6">
+            .col-6
+        </div>
+                <div class="col-6">
+            .col-6
+        </div>
+                <div class="col-6">
+            .col-6
+        </div>
+                <div class="col-6">
+            .col-6
+        </div>
+
+        <div class="col-7">
+            .col-7
+        </div>
+                <div class="col-7">
+            .col-7
+        </div>
+                <div class="col-7">
+            .col-7
+        </div>
+                <div class="col-7">
+            .col-7
+        </div>
+                <div class="col-7">
+            .col-7
+        </div>
+                <div class="col-7">
+            .col-7
+        </div>
+                <div class="col-7">
+            .col-7
+        </div>
+
+                <div class="col-8">
+            .col-8
+        </div>
+                <div class="col-8">
+            .col-8
+        </div>
+                <div class="col-8">
+            .col-8
+        </div>
+                <div class="col-8">
+            .col-8
+        </div>
+                <div class="col-8">
+            .col-8
+        </div>
+                <div class="col-8">
+            .col-8
+        </div>
+                <div class="col-8">
+            .col-8
+        </div>
+                <div class="col-8">
+            .col-8
+        </div>
+
+
+        <div class="col-9">
+            .col-9
+        </div>
+                <div class="col-9">
+            .col-9
+        </div>
+                <div class="col-9">
+            .col-9
+        </div>
+                <div class="col-9">
+            .col-9
+        </div>
+                <div class="col-9">
+            .col-9
+        </div>
+                <div class="col-9">
+            .col-9
+        </div>
+                <div class="col-9">
+            .col-9
+        </div>
+                <div class="col-9">
+            .col-9
+        </div>
+                <div class="col-9">
+            .col-9
+        </div>
+
+        <div class="col-10">
+            .col-10
+        </div>
+                <div class="col-10">
+            .col-10
+        </div>
+                <div class="col-10">
+            .col-10
+        </div>
+                <div class="col-10">
+            .col-10
+        </div>
+                <div class="col-10">
+            .col-10
+        </div>
+                <div class="col-10">
+            .col-10
+        </div>
+                <div class="col-10">
+            .col-10
+        </div>
+                <div class="col-10">
+            .col-10
+        </div>
+                <div class="col-10">
+            .col-10
+        </div>
+                <div class="col-10">
+            .col-10
+        </div>
+
+
+        <div class="col-11">
+            .col-11
+        </div>
+               <div class="col-11">
+            .col-11
+        </div>
+               <div class="col-11">
+            .col-11
+        </div>
+               <div class="col-11">
+            .col-11
+        </div>
+               <div class="col-11">
+            .col-11
+        </div>
+               <div class="col-11">
+            .col-11
+        </div>
+               <div class="col-11">
+            .col-11
+        </div>
+               <div class="col-11">
+            .col-11
+        </div>
+               <div class="col-11">
+            .col-11
+        </div>
+               <div class="col-11">
+            .col-11
+        </div>
+               <div class="col-11">
+            .col-11
+        </div>
+
+               <div class="col-12">
+            .col-12
+        </div>
+                       <div class="col-12">
+            .col-12
+        </div>
+                       <div class="col-12">
+            .col-12
+        </div>
+                       <div class="col-12">
+            .col-12
+        </div>
+                       <div class="col-12">
+            .col-12
+        </div>
+                       <div class="col-12">
+            .col-12
+        </div>
+                       <div class="col-12">
+            .col-12
+        </div>
+                       <div class="col-12">
+            .col-12
+        </div>
+                       <div class="col-12">
+            .col-12
+        </div>
+                       <div class="col-12">
+            .col-12
+        </div>
+                       <div class="col-12">
+            .col-12
+        </div>
+                       <div class="col-12">
+            .col-12
+        </div>
+
+        <div class="col-13">
+            .col-13
+        </div>
+                <div class="col-13">
+            .col-13
+        </div>
+                <div class="col-13">
+            .col-13
+        </div>
+                <div class="col-13">
+            .col-13
+        </div>
+                <div class="col-13">
+            .col-13
+        </div>
+                <div class="col-13">
+            .col-13
+        </div>
+                <div class="col-13">
+            .col-13
+        </div>
+                <div class="col-13">
+            .col-13
+        </div>
+                <div class="col-13">
+            .col-13
+        </div>
+                <div class="col-13">
+            .col-13
+        </div>
+                <div class="col-13">
+            .col-13
+        </div>
+                <div class="col-13">
+            .col-13
+        </div>
+                <div class="col-13">
+            .col-13
+        </div>
+
+                <div class="col-14">
+            .col-14
+        </div>
+                <div class="col-14">
+            .col-14
+        </div>
+                        <div class="col-14">
+            .col-14
+        </div>
+                        <div class="col-14">
+            .col-14
+        </div>
+                        <div class="col-14">
+            .col-14
+        </div>
+                        <div class="col-14">
+            .col-14
+        </div>
+                        <div class="col-14">
+            .col-14
+        </div>
+                        <div class="col-14">
+            .col-14
+        </div>
+                        <div class="col-14">
+            .col-14
+        </div>
+                        <div class="col-14">
+            .col-14
+        </div>
+                        <div class="col-14">
+            .col-14
+        </div>
+                        <div class="col-14">
+            .col-14
+        </div>
+                        <div class="col-14">
+            .col-14
+        </div>
+                        <div class="col-14">
+            .col-14
+        </div>
+
+        <div class="col-15">
+            .col-15
+        </div>
+        <div class="col-15">
+            .col-15
+        </div>        <div class="col-15">
+            .col-15
+        </div>        <div class="col-15">
+            .col-15
+        </div>        <div class="col-15">
+            .col-15
+        </div>        <div class="col-15">
+            .col-15
+        </div>        <div class="col-15">
+            .col-15
+        </div>        <div class="col-15">
+            .col-15
+        </div>        <div class="col-15">
+            .col-15
+        </div>        <div class="col-15">
+            .col-15
+        </div>        <div class="col-15">
+            .col-15
+        </div>        <div class="col-15">
+            .col-15
+        </div>        <div class="col-15">
+            .col-15
+        </div>        <div class="col-15">
+            .col-15
+        </div>        <div class="col-15">
+            .col-15
+        </div>
+</div>
+
+    <footer>
+        <h1>The Simple Grid</h1>
+        <p>Here is a simple CSS grid system. Great for small projects. It's simple, easy to use and responsive.</p>
+
+        <p>The grid resizes at three resolutions for phones, large phones/phablets, and for tablets/ereaders. (sizes are approx as each device size will very)</p>
+    </footer>
+</body>
+
+</html>
